@@ -108,7 +108,7 @@ import food_72 from './food_72.jpeg'
 
 
 import facebook_icon from './facebook_icon.png'
-import twitter_icon from './twitter_icon.png'
+import Twitter_icon from './Twitter_icon.png'
 import linkedin_icon from './linkedin_icon.png'
 import appstore from './appstore.png'
 import playstore from './playstore.png'
@@ -118,7 +118,7 @@ import logout_icon from './logout_icon.png'
 import parcel from './parcel.png'
 
 
-export const assets = {parcel, bag_icon,logout_icon,close_icon,appstore,playstore,facebook_icon,linkedin_icon,twitter_icon, remove_icon,Plusicon,rating_star, 
+export const assets = {parcel, bag_icon,logout_icon,close_icon,appstore,playstore,facebook_icon,linkedin_icon,Twitter_icon, remove_icon,Plusicon,rating_star, 
     food_1,food_2,food_3,food_4, food_5, food_8, food_9, food_10, food_11,food_12, food_13, food_14, food_15,
     food_16,food_17,food_18,food_19,food_20,food_21,food_22,food_23,food_24,food_25,food_26,food_27,food_28,food_29,food_30,
     food_31,food_32,food_33,food_34,food_35,food_36,food_37,food_38,food_39,food_40,food_41,food_42,food_43,food_44,food_45,food_46,food_47,food_48,
