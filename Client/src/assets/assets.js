@@ -118,7 +118,6 @@ import logout_icon from './logout_icon.png'
 import parcel from './parcel.png'
 
 
-
 export const assets = {parcel, bag_icon,logout_icon,close_icon,appstore,playstore,facebook_icon,linkedin_icon,twitter_icon, remove_icon,Plusicon,rating_star, 
     food_1,food_2,food_3,food_4, food_5, food_8, food_9, food_10, food_11,food_12, food_13, food_14, food_15,
     food_16,food_17,food_18,food_19,food_20,food_21,food_22,food_23,food_24,food_25,food_26,food_27,food_28,food_29,food_30,
