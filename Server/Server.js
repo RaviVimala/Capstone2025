@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
-import hotelRoutes from "./routes/hotelRoute.js";
-import authorityRoutes from "./routes/AuthorityRoutes.js"
+// import hotelRoutes from "./routes/hotelRoute.js";
+// import authorityRoutes from "./routes/AuthorityRoutes.js"
 import { connectDB } from "./Config/db.js";
 import foodRouter from "./routes/foodRoute.js";
 import userRouter from "./routes/userRoute.js";
@@ -31,8 +31,8 @@ app.use("/images",express.static('uploads'));
 app.use("/api/user", userRouter);
 app.use("/api/cart", cartRouter);
 app.use("/api/order",orderRouter);
-app.use("/api/hotels", hotelRoutes);
-app.use("/api/authority", authorityRoutes);
+// app.use("/api/hotels", hotelRoutes);
+// app.use("/api/authority", authorityRoutes);
 
 app.get('/', (req, res) => {
     res.send("Now API is Working...!");
