@@ -107,6 +107,7 @@ import food_71 from './food_71.jpeg'
 import food_72 from './food_72.jpeg'
 
 
+
 import facebook_icon from './facebook_icon.png'
 import Twitter_icon from './Twitter_icon.png'
 import linkedin_icon from './linkedin_icon.png'
@@ -116,6 +117,7 @@ import close_icon from './close_icon.png'
 import bag_icon from './bag_icon.png'
 import logout_icon from './logout_icon.png'
 import parcel from './parcel.png'
+
 
 
 export const assets = {parcel, bag_icon,logout_icon,close_icon,appstore,playstore,facebook_icon,linkedin_icon,Twitter_icon, remove_icon,Plusicon,rating_star, 

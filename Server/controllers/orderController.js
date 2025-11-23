@@ -12,13 +12,13 @@ const placeOrder = async (req, res) => {
 
     try {
         const newOrder = new orderModel({
-            userId: req.body.userId,
+            userId: req.userId,
             items: req.body.items,
             amount: req.body.amount,
             address: req.body.address
         }) 
         await newOrder.save();
-        await userModel.findByIdAndUpdate(req.body.userId, { cartData: {} });
+        await userModel.findByIdAndUpdate(req.userId, { cartData: {} });
         const line_items = req.body.items.map((item) => ({
             price_data: {
                 currency: "inr",
